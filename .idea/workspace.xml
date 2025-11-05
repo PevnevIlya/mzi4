@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cc16fb2-9241-44a1-8ec2-4d74d9ab7da8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="33Q7T3SL1y6NEgp0iCA9gyfGNYU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Authentication Service Run.executor": "Run",
+    "JUnit.AuthIntegrationTest.executor": "Run",
+    "JUnit.AuthServiceImplTest.executor": "Run",
+    "JUnit.AuthServiceIntegrationTest.executor": "Run",
+    "JUnit.JwtUtilTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "workBranch",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/mzi_four"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\mzi_four" />
+      <recent name="C:\Users\ASUS\Desktop\mzi_four\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Authentication Service Run">
+    <configuration name="Authentication Service Run" type="Application" factoryName="Application">
+      <envs>
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_PORT" value="5432" />
+        <env name="DB_NAME" value="auth_service_db" />
+        <env name="DB_USERNAME" value="postgres" />
+        <env name="DB_PASSWORD" value="2207" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.example.AuthenticationService.AuthenticationServiceApplication" />
+      <module name="AuthenticationService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuthenticationService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AuthenticationService.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.AuthenticationService.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AuthenticationService.integration.AuthIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuthenticationService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AuthenticationService.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.AuthenticationService.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AuthenticationService.service.AuthServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuthenticationService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AuthenticationService.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.AuthenticationService.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AuthenticationService.integration.AuthServiceIntegrationTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuthenticationService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AuthenticationService.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.AuthenticationService.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AuthenticationService.service.JwtUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Authentication Service Run" />
+      <item itemvalue="JUnit.AuthIntegrationTest" />
+      <item itemvalue="JUnit.AuthServiceImplTest" />
+      <item itemvalue="JUnit.AuthServiceIntegrationTest" />
+      <item itemvalue="JUnit.JwtUtilTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AuthServiceImplTest" />
+        <item itemvalue="JUnit.AuthServiceIntegrationTest" />
+        <item itemvalue="JUnit.AuthIntegrationTest" />
+        <item itemvalue="JUnit.JwtUtilTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cc16fb2-9241-44a1-8ec2-4d74d9ab7da8" name="Changes" comment="" />
+      <created>1759237446663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759237446663</updated>
+    </task>
+    <servers />
+  </component>
+</project>
