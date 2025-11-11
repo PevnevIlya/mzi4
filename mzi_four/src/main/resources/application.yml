@@ -2,14 +2,19 @@ spring:
   application:
     name: AuthenticationService
 
+  # Больше НИКАКИХ ${DB_HOST}, ${DB_PORT} и т.д. !!!
+  # Spring Boot сам всё подхватит из DATABASE_URL
   datasource:
-    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dummy:5432/dummy   # заглушка, будет перезаписана автоматически
+    username: dummy
+    password: dummy
 
   liquibase:
     change-log: classpath:db.changelog/db.changelog-master.xml
-    enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: validate    # или none, если только Liquibase
+
 server:
-  port: 8081
+  port: ${PORT:8081}
